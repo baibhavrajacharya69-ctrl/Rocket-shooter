@@ -2,37 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rocket shooter</title>
+    <title>Rocket Shooter</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <div id="game-container">
-        <div id="score-board" class="ui-element">Stars: <span id="score">0</span></div>
-        <div id="multiplier-board" class="ui-element">Combo: x<span id="multiplier">1.0</span></div>
-        <div id="lives-board" class="ui-element">Hearts: <span id="lives">♥♥♥</span></div>
-        <div id="shield-status" class="ui-element hidden">🛡️ SHIELD ACTIVE!</div>
-
+        <div id="score-board" class="ui-element">Score: <span id="score">0</span></div>
+        <div id="lives-board" class="ui-element" style="bottom: 25px; left: 30px;">Hearts: <span id="lives">♥♥♥</span></div>
+        
         <div id="start-screen" class="screen">
             <h1>Rocket Shooter</h1>
-            <p>
-                Drag your cardboard rocket to dodge the angry ink monsters!<br>
-                Collect 🌟 Stars for points and 🛡️ Shields for safety.<br>
-                Your rocket shoots automatically!
-            </p>
+            <p>Move mouse to fly. <br> Spacebar for Super Eraser (costs 500 points)!</p>
             <button class="btn" id="start-btn">Launch Rocket!</button>
         </div>
 
         <div id="game-over-screen" class="screen hidden">
-            <h1>Oops! Crashed!</h1>
-            <p>The ink monsters smudged your drawing.<br>Total Stars Caught: <span id="final-score">0</span></p>
-            <button class="btn" id="restart-btn">Play Again!</button>
+            <h1>Crashed!</h1>
+            <button class="btn" id="restart-btn">Try Again</button>
         </div>
-
+<div id="game-over-screen" class="screen hidden">
+    <h1>Crashed!</h1>
+    <p>The ink monsters took over.</p>
+    <button class="btn" id="restart-btn">Play Again!</button>
+</div>
         <canvas id="gameCanvas" width="1024" height="768"></canvas>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
