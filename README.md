@@ -14,3 +14,8 @@ some extra features in this are  shields and a nice and  chunky ui  which adds l
   one can play this came using the link or can clone this repo it is a fun and basic game made with my imagination and designing skills ..
  i crafted the character  background in my sketch book before making it in computer. so it gives a bit notebook vibe while playing hope you would lile my project
  thank you for visiting my repo
+after making this project half and summiting it on maconda event i begain to add some extra features to the game  . while i was testing the game i though a idea of making it a doging game insted of shooter and i begin to make and coade it in the same pattern as it was before ..
+ and then now the features of this games has chnage
+ it consit of a triangular charcter and circle comming from up that need to be douged by the player
+ thank you for visiting my repo .
+ one can copy my coad and if you want to learn  to make this game then you can contact me through baibhavrajacharya69@gmail.com if u have any proble related to the coad thank you
